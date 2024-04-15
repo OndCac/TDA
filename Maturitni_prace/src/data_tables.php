@@ -1,15 +1,5 @@
 <?php
 
-function DataTablesHeader($check) {
-    if ($check) {
-        $dataTables = '<script src="jquery/jquery-3.7.1.min.js"></script>
-        <link rel="stylesheet" href="DataTables/DataTables-1.13.8/css/jquery.dataTables.min.css" />
-        <script src="DataTables/DataTables-1.13.8/js/jquery.dataTables.min.js"></script>';
-
-        echo $dataTables;
-    }
-}
-
 function LecList($profileData) {
     echo "<table id='lecTable' class='display'>
                 <thead>
